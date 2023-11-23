@@ -20,7 +20,21 @@ body{
 	background-color:#FFFFFF;
 	border-radius: 0px 0px 30px 30px;
 	border: 4px solid #144FC6;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
 }
+.remained{
+    flex: 1;
+    color: black;
+	overflow: hidden;
+  }
+  .percentage{
+    flex: 1;
+    background-color: #6AB3F8;
+    color: black;
+	  overflow: hidden;
+  }
 .cups{
 	display: grid;
 	grid-template-rows: 100px 100px;
